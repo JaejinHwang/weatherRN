@@ -5,9 +5,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Loading() {
   return (
     <View style={styles.container}>
+      <StatusBar style="light" />
       <Text style={styles.loadingText}>Loading</Text>
       <Text style={styles.loadingText}>the Weather 🇰🇷</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
